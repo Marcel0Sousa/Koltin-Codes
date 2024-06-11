@@ -1,5 +1,10 @@
 package org.example.View
 
-class TelaPrincipal {
+import org.example.OnClickListener
+
+class TelaPrincipal: OnClickListener {
+    override fun onClick() {
+        println("Tela principal recebeu o click de alguem")
+    }
 
 }
